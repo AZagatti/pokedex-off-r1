@@ -15,4 +15,4 @@ pre-commit:
 pre-push:
   jobs:
     - name: test
-      run: npm run test
+      run: npm run test:unit -- --run

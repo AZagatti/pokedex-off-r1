@@ -1,0 +1,20 @@
+[     756ms] Svelte error: each_key_duplicate
+Keyed each block has duplicate key `undefined` at indexes 0 and 1
+https://svelte.dev/e/each_key_duplicate
+
+	in <unknown>
+	in +page.svelte
+	in +layout.svelte
+	in root.svelte
+	in undefined
+
+    at each_key_duplicate (http://localhost:5174/node_modules/.vite/deps/runtime-C02UlGpv.js?v=fbb1983d:330:33)
+    at validate_each_keys (http://localhost:5174/node_modules/.vite/deps/index-client-CHmVRceo.js?v=fbb1983d:1181:4)
+    at http://localhost:5174/node_modules/.vite/deps/index-client-CHmVRceo.js?v=fbb1983d:929:28
+    at update_reaction (http://localhost:5174/node_modules/.vite/deps/runtime-C02UlGpv.js?v=fbb1983d:4885:16)
+    at update_effect (http://localhost:5174/node_modules/.vite/deps/runtime-C02UlGpv.js?v=fbb1983d:4985:18)
+    at #traverse (http://localhost:5174/node_modules/.vite/deps/runtime-C02UlGpv.js?v=fbb1983d:2847:6)
+    at #process (http://localhost:5174/node_modules/.vite/deps/runtime-C02UlGpv.js?v=fbb1983d:2777:18)
+    at Batch.flush (http://localhost:5174/node_modules/.vite/deps/runtime-C02UlGpv.js?v=fbb1983d:2952:17)
+    at Array.<anonymous> (http://localhost:5174/node_modules/.vite/deps/runtime-C02UlGpv.js?v=fbb1983d:3087:32)
+    at run_all (http://localhost:5174/node_modules/.vite/deps/runtime-C02UlGpv.js?v=fbb1983d:40:45)

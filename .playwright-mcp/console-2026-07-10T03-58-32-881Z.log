@@ -1,0 +1,38 @@
+[    3549ms] [ERROR] ZodError: [
+  {
+    "expected": "number",
+    "code": "invalid_type",
+    "path": [
+      "chain",
+      "id"
+    ],
+    "message": "Invalid input: expected number, received undefined"
+  },
+  {
+    "expected": "number",
+    "code": "invalid_type",
+    "path": [
+      "chain",
+      "evolves_to",
+      0,
+      "id"
+    ],
+    "message": "Invalid input: expected number, received undefined"
+  },
+  {
+    "expected": "number",
+    "code": "invalid_type",
+    "path": [
+      "chain",
+      "evolves_to",
+      0,
+      "evolves_to",
+      0,
+      "id"
+    ],
+    "message": "Invalid input: expected number, received undefined"
+  }
+]
+    at fetchWithCache (http://localhost:5174/src/lib/api/fetcher.ts:11:27)
+    at async Module.track_reactivity_loss (http://localhost:5174/node_modules/.vite/deps/runtime-C02UlGpv.js?v=fbb1983d:2183:14)
+    at async loadData (http://localhost:5174/src/routes/pokemon/[name]/+page.svelte:126:27) @ http://localhost:5174/@vite/client:524

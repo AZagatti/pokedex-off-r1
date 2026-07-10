@@ -1,0 +1,47 @@
+- generic [ref=f4e3]:
+  - navigation [ref=f4e4]:
+    - generic [ref=f4e6]:
+      - generic [ref=f4e7]:
+        - link "Pokédex" [ref=f4e8] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f4e9]:
+          - link "Pokédex" [ref=f4e10] [cursor=pointer]:
+            - /url: /
+          - link "Berries" [ref=f4e11] [cursor=pointer]:
+            - /url: /berries
+          - link "Favorites" [ref=f4e12] [cursor=pointer]:
+            - /url: /favorites
+      - button "Toggle theme" [ref=f4e13]
+  - main [ref=f4e16]:
+    - generic [ref=f4e17]:
+      - generic [ref=f4e18]:
+        - heading "Pokédex" [level=1] [ref=f4e19]
+        - textbox "Search by name or ID..." [ref=f4e21]
+        - generic [ref=f4e22]:
+          - generic [ref=f4e23]:
+            - generic [ref=f4e24]: Sort
+            - combobox "Sort" [ref=f4e25]:
+              - option "Dex Number" [selected]
+              - option "Base Stats Total"
+          - group "Types" [ref=f4e26]:
+            - generic [ref=f4e28]:
+              - button "normal" [ref=f4e29]
+              - button "fire" [ref=f4e30]
+              - button "water" [ref=f4e31]
+              - button "electric" [ref=f4e32]
+              - button "grass" [ref=f4e33]
+              - button "ice" [ref=f4e34]
+              - button "fighting" [ref=f4e35]
+              - button "poison" [ref=f4e36]
+              - button "ground" [ref=f4e37]
+              - button "flying" [ref=f4e38]
+              - button "psychic" [ref=f4e39]
+              - button "bug" [ref=f4e40]
+              - button "rock" [ref=f4e41]
+              - button "ghost" [ref=f4e42]
+              - button "dragon" [ref=f4e43]
+              - button "dark" [ref=f4e44]
+              - button "steel" [ref=f4e45]
+              - button "fairy" [ref=f4e46]
+        - paragraph [ref=f4e48]: No Pokémon found matching your filters
+      - button "Load More" [ref=f4e50]

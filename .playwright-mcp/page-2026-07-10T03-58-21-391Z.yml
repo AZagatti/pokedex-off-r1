@@ -1,0 +1,313 @@
+- generic [ref=f2e3]:
+  - navigation [ref=f2e4]:
+    - generic [ref=f2e6]:
+      - generic [ref=f2e7]:
+        - link "Pokédex" [ref=f2e8] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f2e9]:
+          - link "Pokédex" [ref=f2e10] [cursor=pointer]:
+            - /url: /
+          - link "Berries" [ref=f2e11] [cursor=pointer]:
+            - /url: /berries
+          - link "Favorites" [ref=f2e12] [cursor=pointer]:
+            - /url: /favorites
+      - button "Toggle theme" [active] [ref=f2e13]
+  - main [ref=f2e16]:
+    - generic [ref=f2e17]:
+      - generic [ref=f2e18]:
+        - heading "Pokédex" [level=1] [ref=f2e19]
+        - textbox "Search by name or ID..." [ref=f2e21]
+        - generic [ref=f2e22]:
+          - generic [ref=f2e23]:
+            - generic [ref=f2e24]: Sort
+            - combobox "Sort" [ref=f2e25]:
+              - option "Dex Number" [selected]
+              - option "Base Stats Total"
+          - group "Types" [ref=f2e26]:
+            - generic [ref=f2e28]:
+              - button "normal" [ref=f2e29]
+              - button "fire" [ref=f2e30]
+              - button "water" [ref=f2e31]
+              - button "electric" [ref=f2e32]
+              - button "grass" [ref=f2e33]
+              - button "ice" [ref=f2e34]
+              - button "fighting" [ref=f2e35]
+              - button "poison" [ref=f2e36]
+              - button "ground" [ref=f2e37]
+              - button "flying" [ref=f2e38]
+              - button "psychic" [ref=f2e39]
+              - button "bug" [ref=f2e40]
+              - button "rock" [ref=f2e41]
+              - button "ghost" [ref=f2e42]
+              - button "dragon" [ref=f2e43]
+              - button "dark" [ref=f2e44]
+              - button "steel" [ref=f2e45]
+              - button "fairy" [ref=f2e46]
+      - generic [ref=f2e51]:
+        - link "#001 Add to favorites bulbasaur bulbasaur grass poison" [ref=f2e52] [cursor=pointer]:
+          - /url: /pokemon/bulbasaur
+          - generic [ref=f2e53]:
+            - generic [ref=f2e54]: "#001"
+            - button "Add to favorites" [ref=f2e55]
+          - img "bulbasaur" [ref=f2e58]
+          - heading "bulbasaur" [level=3] [ref=f2e59]
+          - generic [ref=f2e60]:
+            - generic [ref=f2e61]: grass
+            - generic [ref=f2e62]: poison
+        - link "#002 Add to favorites ivysaur ivysaur grass poison" [ref=f2e63] [cursor=pointer]:
+          - /url: /pokemon/ivysaur
+          - generic [ref=f2e64]:
+            - generic [ref=f2e65]: "#002"
+            - button "Add to favorites" [ref=f2e66]
+          - img "ivysaur" [ref=f2e69]
+          - heading "ivysaur" [level=3] [ref=f2e70]
+          - generic [ref=f2e71]:
+            - generic [ref=f2e72]: grass
+            - generic [ref=f2e73]: poison
+        - link "#003 Add to favorites venusaur venusaur grass poison" [ref=f2e74] [cursor=pointer]:
+          - /url: /pokemon/venusaur
+          - generic [ref=f2e75]:
+            - generic [ref=f2e76]: "#003"
+            - button "Add to favorites" [ref=f2e77]
+          - img "venusaur" [ref=f2e80]
+          - heading "venusaur" [level=3] [ref=f2e81]
+          - generic [ref=f2e82]:
+            - generic [ref=f2e83]: grass
+            - generic [ref=f2e84]: poison
+        - link "#004 Add to favorites charmander charmander fire" [ref=f2e85] [cursor=pointer]:
+          - /url: /pokemon/charmander
+          - generic [ref=f2e86]:
+            - generic [ref=f2e87]: "#004"
+            - button "Add to favorites" [ref=f2e88]
+          - img "charmander" [ref=f2e91]
+          - heading "charmander" [level=3] [ref=f2e92]
+          - generic [ref=f2e93]: fire
+        - link "#005 Add to favorites charmeleon charmeleon fire" [ref=f2e95] [cursor=pointer]:
+          - /url: /pokemon/charmeleon
+          - generic [ref=f2e96]:
+            - generic [ref=f2e97]: "#005"
+            - button "Add to favorites" [ref=f2e98]
+          - img "charmeleon" [ref=f2e101]
+          - heading "charmeleon" [level=3] [ref=f2e102]
+          - generic [ref=f2e103]: fire
+        - link "#006 Add to favorites charizard charizard fire flying" [ref=f2e105] [cursor=pointer]:
+          - /url: /pokemon/charizard
+          - generic [ref=f2e106]:
+            - generic [ref=f2e107]: "#006"
+            - button "Add to favorites" [ref=f2e108]
+          - img "charizard" [ref=f2e111]
+          - heading "charizard" [level=3] [ref=f2e112]
+          - generic [ref=f2e113]:
+            - generic [ref=f2e114]: fire
+            - generic [ref=f2e115]: flying
+        - link "#007 Add to favorites squirtle squirtle water" [ref=f2e116] [cursor=pointer]:
+          - /url: /pokemon/squirtle
+          - generic [ref=f2e117]:
+            - generic [ref=f2e118]: "#007"
+            - button "Add to favorites" [ref=f2e119]
+          - img "squirtle" [ref=f2e122]
+          - heading "squirtle" [level=3] [ref=f2e123]
+          - generic [ref=f2e124]: water
+        - link "#008 Add to favorites wartortle wartortle water" [ref=f2e126] [cursor=pointer]:
+          - /url: /pokemon/wartortle
+          - generic [ref=f2e127]:
+            - generic [ref=f2e128]: "#008"
+            - button "Add to favorites" [ref=f2e129]
+          - img "wartortle" [ref=f2e132]
+          - heading "wartortle" [level=3] [ref=f2e133]
+          - generic [ref=f2e134]: water
+        - link "#009 Add to favorites blastoise blastoise water" [ref=f2e136] [cursor=pointer]:
+          - /url: /pokemon/blastoise
+          - generic [ref=f2e137]:
+            - generic [ref=f2e138]: "#009"
+            - button "Add to favorites" [ref=f2e139]
+          - img "blastoise" [ref=f2e142]
+          - heading "blastoise" [level=3] [ref=f2e143]
+          - generic [ref=f2e144]: water
+        - link "#010 Add to favorites caterpie caterpie bug" [ref=f2e146] [cursor=pointer]:
+          - /url: /pokemon/caterpie
+          - generic [ref=f2e147]:
+            - generic [ref=f2e148]: "#010"
+            - button "Add to favorites" [ref=f2e149]
+          - img "caterpie" [ref=f2e152]
+          - heading "caterpie" [level=3] [ref=f2e153]
+          - generic [ref=f2e154]: bug
+        - link "#011 Add to favorites metapod metapod bug" [ref=f2e156] [cursor=pointer]:
+          - /url: /pokemon/metapod
+          - generic [ref=f2e157]:
+            - generic [ref=f2e158]: "#011"
+            - button "Add to favorites" [ref=f2e159]
+          - img "metapod" [ref=f2e162]
+          - heading "metapod" [level=3] [ref=f2e163]
+          - generic [ref=f2e164]: bug
+        - link "#012 Add to favorites butterfree butterfree bug flying" [ref=f2e166] [cursor=pointer]:
+          - /url: /pokemon/butterfree
+          - generic [ref=f2e167]:
+            - generic [ref=f2e168]: "#012"
+            - button "Add to favorites" [ref=f2e169]
+          - img "butterfree" [ref=f2e172]
+          - heading "butterfree" [level=3] [ref=f2e173]
+          - generic [ref=f2e174]:
+            - generic [ref=f2e175]: bug
+            - generic [ref=f2e176]: flying
+        - link "#013 Add to favorites weedle weedle bug poison" [ref=f2e177] [cursor=pointer]:
+          - /url: /pokemon/weedle
+          - generic [ref=f2e178]:
+            - generic [ref=f2e179]: "#013"
+            - button "Add to favorites" [ref=f2e180]
+          - img "weedle" [ref=f2e183]
+          - heading "weedle" [level=3] [ref=f2e184]
+          - generic [ref=f2e185]:
+            - generic [ref=f2e186]: bug
+            - generic [ref=f2e187]: poison
+        - link "#014 Add to favorites kakuna kakuna bug poison" [ref=f2e188] [cursor=pointer]:
+          - /url: /pokemon/kakuna
+          - generic [ref=f2e189]:
+            - generic [ref=f2e190]: "#014"
+            - button "Add to favorites" [ref=f2e191]
+          - img "kakuna" [ref=f2e194]
+          - heading "kakuna" [level=3] [ref=f2e195]
+          - generic [ref=f2e196]:
+            - generic [ref=f2e197]: bug
+            - generic [ref=f2e198]: poison
+        - link "#015 Add to favorites beedrill beedrill bug poison" [ref=f2e199] [cursor=pointer]:
+          - /url: /pokemon/beedrill
+          - generic [ref=f2e200]:
+            - generic [ref=f2e201]: "#015"
+            - button "Add to favorites" [ref=f2e202]
+          - img "beedrill" [ref=f2e205]
+          - heading "beedrill" [level=3] [ref=f2e206]
+          - generic [ref=f2e207]:
+            - generic [ref=f2e208]: bug
+            - generic [ref=f2e209]: poison
+        - link "#016 Add to favorites pidgey pidgey normal flying" [ref=f2e210] [cursor=pointer]:
+          - /url: /pokemon/pidgey
+          - generic [ref=f2e211]:
+            - generic [ref=f2e212]: "#016"
+            - button "Add to favorites" [ref=f2e213]
+          - img "pidgey" [ref=f2e216]
+          - heading "pidgey" [level=3] [ref=f2e217]
+          - generic [ref=f2e218]:
+            - generic [ref=f2e219]: normal
+            - generic [ref=f2e220]: flying
+        - link "#017 Add to favorites pidgeotto pidgeotto normal flying" [ref=f2e221] [cursor=pointer]:
+          - /url: /pokemon/pidgeotto
+          - generic [ref=f2e222]:
+            - generic [ref=f2e223]: "#017"
+            - button "Add to favorites" [ref=f2e224]
+          - img "pidgeotto" [ref=f2e227]
+          - heading "pidgeotto" [level=3] [ref=f2e228]
+          - generic [ref=f2e229]:
+            - generic [ref=f2e230]: normal
+            - generic [ref=f2e231]: flying
+        - link "#018 Add to favorites pidgeot pidgeot normal flying" [ref=f2e232] [cursor=pointer]:
+          - /url: /pokemon/pidgeot
+          - generic [ref=f2e233]:
+            - generic [ref=f2e234]: "#018"
+            - button "Add to favorites" [ref=f2e235]
+          - img "pidgeot" [ref=f2e238]
+          - heading "pidgeot" [level=3] [ref=f2e239]
+          - generic [ref=f2e240]:
+            - generic [ref=f2e241]: normal
+            - generic [ref=f2e242]: flying
+        - link "#019 Add to favorites rattata rattata normal" [ref=f2e243] [cursor=pointer]:
+          - /url: /pokemon/rattata
+          - generic [ref=f2e244]:
+            - generic [ref=f2e245]: "#019"
+            - button "Add to favorites" [ref=f2e246]
+          - img "rattata" [ref=f2e249]
+          - heading "rattata" [level=3] [ref=f2e250]
+          - generic [ref=f2e251]: normal
+        - link "#020 Add to favorites raticate raticate normal" [ref=f2e253] [cursor=pointer]:
+          - /url: /pokemon/raticate
+          - generic [ref=f2e254]:
+            - generic [ref=f2e255]: "#020"
+            - button "Add to favorites" [ref=f2e256]
+          - img "raticate" [ref=f2e259]
+          - heading "raticate" [level=3] [ref=f2e260]
+          - generic [ref=f2e261]: normal
+        - link "#021 Add to favorites spearow spearow normal flying" [ref=f2e263] [cursor=pointer]:
+          - /url: /pokemon/spearow
+          - generic [ref=f2e264]:
+            - generic [ref=f2e265]: "#021"
+            - button "Add to favorites" [ref=f2e266]
+          - img "spearow" [ref=f2e269]
+          - heading "spearow" [level=3] [ref=f2e270]
+          - generic [ref=f2e271]:
+            - generic [ref=f2e272]: normal
+            - generic [ref=f2e273]: flying
+        - link "#022 Add to favorites fearow fearow normal flying" [ref=f2e274] [cursor=pointer]:
+          - /url: /pokemon/fearow
+          - generic [ref=f2e275]:
+            - generic [ref=f2e276]: "#022"
+            - button "Add to favorites" [ref=f2e277]
+          - img "fearow" [ref=f2e280]
+          - heading "fearow" [level=3] [ref=f2e281]
+          - generic [ref=f2e282]:
+            - generic [ref=f2e283]: normal
+            - generic [ref=f2e284]: flying
+        - link "#023 Add to favorites ekans ekans poison" [ref=f2e285] [cursor=pointer]:
+          - /url: /pokemon/ekans
+          - generic [ref=f2e286]:
+            - generic [ref=f2e287]: "#023"
+            - button "Add to favorites" [ref=f2e288]
+          - img "ekans" [ref=f2e291]
+          - heading "ekans" [level=3] [ref=f2e292]
+          - generic [ref=f2e293]: poison
+        - link "#024 Add to favorites arbok arbok poison" [ref=f2e295] [cursor=pointer]:
+          - /url: /pokemon/arbok
+          - generic [ref=f2e296]:
+            - generic [ref=f2e297]: "#024"
+            - button "Add to favorites" [ref=f2e298]
+          - img "arbok" [ref=f2e301]
+          - heading "arbok" [level=3] [ref=f2e302]
+          - generic [ref=f2e303]: poison
+        - link "#025 Add to favorites pikachu pikachu electric" [ref=f2e305] [cursor=pointer]:
+          - /url: /pokemon/pikachu
+          - generic [ref=f2e306]:
+            - generic [ref=f2e307]: "#025"
+            - button "Add to favorites" [ref=f2e308]
+          - img "pikachu" [ref=f2e311]
+          - heading "pikachu" [level=3] [ref=f2e312]
+          - generic [ref=f2e313]: electric
+        - link "#026 Add to favorites raichu raichu electric" [ref=f2e315] [cursor=pointer]:
+          - /url: /pokemon/raichu
+          - generic [ref=f2e316]:
+            - generic [ref=f2e317]: "#026"
+            - button "Add to favorites" [ref=f2e318]
+          - img "raichu" [ref=f2e321]
+          - heading "raichu" [level=3] [ref=f2e322]
+          - generic [ref=f2e323]: electric
+        - link "#027 Add to favorites sandshrew sandshrew ground" [ref=f2e325] [cursor=pointer]:
+          - /url: /pokemon/sandshrew
+          - generic [ref=f2e326]:
+            - generic [ref=f2e327]: "#027"
+            - button "Add to favorites" [ref=f2e328]
+          - img "sandshrew" [ref=f2e331]
+          - heading "sandshrew" [level=3] [ref=f2e332]
+          - generic [ref=f2e333]: ground
+        - link "#028 Add to favorites sandslash sandslash ground" [ref=f2e335] [cursor=pointer]:
+          - /url: /pokemon/sandslash
+          - generic [ref=f2e336]:
+            - generic [ref=f2e337]: "#028"
+            - button "Add to favorites" [ref=f2e338]
+          - img "sandslash" [ref=f2e341]
+          - heading "sandslash" [level=3] [ref=f2e342]
+          - generic [ref=f2e343]: ground
+        - link "#029 Add to favorites nidoran-f nidoran-f poison" [ref=f2e345] [cursor=pointer]:
+          - /url: /pokemon/nidoran-f
+          - generic [ref=f2e346]:
+            - generic [ref=f2e347]: "#029"
+            - button "Add to favorites" [ref=f2e348]
+          - img "nidoran-f" [ref=f2e351]
+          - heading "nidoran-f" [level=3] [ref=f2e352]
+          - generic [ref=f2e353]: poison
+        - link "#030 Add to favorites nidorina nidorina poison" [ref=f2e355] [cursor=pointer]:
+          - /url: /pokemon/nidorina
+          - generic [ref=f2e356]:
+            - generic [ref=f2e357]: "#030"
+            - button "Add to favorites" [ref=f2e358]
+          - img "nidorina" [ref=f2e361]
+          - heading "nidorina" [level=3] [ref=f2e362]
+          - generic [ref=f2e363]: poison
+      - button "Load More" [ref=f2e366]
