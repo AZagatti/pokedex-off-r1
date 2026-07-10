@@ -10,3 +10,4 @@ Tracking progress, rework, confusion, anomalies, and surprises during autonomous
 - **2026-07-10 05:00** Berries list and detail pages; favorites page; 404 error page. Fixed import order in fetcher.
 - **2026-07-10 06:00** Fixed CSS syntax in +layout.svelte, a11y labels. Updated vite.config.ts with adapter config and paths.base. Build succeeds.
 - **2026-07-10 07:00** Dev server running on port 5174. Tested: home page (light/dark), berries list, pokemon detail page, favorites. All pages loading correctly. Screenshots captured to docs/screenshots/.
+- **2026-07-10 08:00** Set up lefthook with pre-commit (lint, format, typecheck) and pre-push (unit tests). Configured GitHub Actions CI/CD with Node 18 & 20 matrix. Created ARCHITECTURE.md and DECISIONS.md. Portfolio-quality README with badges and screenshots. Initial commit pushed to GitHub. GitHub Pages deployment should trigger automatically.

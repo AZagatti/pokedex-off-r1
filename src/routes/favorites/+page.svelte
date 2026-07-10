@@ -33,7 +33,7 @@
 	});
 
 	$effect(() => {
-		$favorites;
+		void $favorites; // Reactively respond to favorites changes
 		loadFavorites();
 	});
 </script>
